@@ -1,0 +1,151 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1687752074048,692,HTTP Request LIST USERS,200,OK,Thread Group 1-2,text,true,,1754,127,2,2,https://reqres.in/api/users?page=2,687,0,240
+1687752073711,1029,HTTP Request LIST USERS,200,OK,Thread Group 1-1,text,true,,1744,127,2,2,https://reqres.in/api/users?page=2,1024,0,579
+1687752074741,499,HTTP Request SINGLE USER,200,OK,Thread Group 1-1,text,true,,997,122,2,2,https://reqres.in/api/users/2,499,0,0
+1687752074741,583,HTTP Request SINGLE USER,200,OK,Thread Group 1-2,text,true,,993,122,2,2,https://reqres.in/api/users/2,583,0,0
+1687752075240,437,HTTP Request SINGLE USER NOT FOUND,404,Not Found,Thread Group 1-1,text,false,,696,123,2,2,https://reqres.in/api/users/23,437,0,0
+1687752075678,33,HTTP Request LIST <RESOURCE>,200,OK,Thread Group 1-1,text,true,,1417,122,2,2,https://reqres.in/api/unknown,32,0,0
+1687752075711,27,HTTP Request SINGLE <RESOURCE>,200,OK,Thread Group 1-1,text,true,,957,124,2,2,https://reqres.in/api/unknown/2,27,0,0
+1687752075325,458,HTTP Request SINGLE USER NOT FOUND,404,Not Found,Thread Group 1-2,text,false,,692,123,2,2,https://reqres.in/api/users/23,458,0,0
+1687752075783,26,HTTP Request LIST <RESOURCE>,200,OK,Thread Group 1-2,text,true,,1423,122,2,2,https://reqres.in/api/unknown,26,0,0
+1687752075810,27,HTTP Request SINGLE <RESOURCE>,200,OK,Thread Group 1-2,text,true,,949,124,2,2,https://reqres.in/api/unknown/2,27,0,0
+1687752075739,425,HTTP Request SINGLE <RESOURCE> NOT FOUND,404,Not Found,Thread Group 1-1,text,false,,696,125,2,2,https://reqres.in/api/unknown/23,425,0,0
+1687752075838,438,HTTP Request SINGLE <RESOURCE> NOT FOUND,404,Not Found,Thread Group 1-2,text,false,,694,125,2,2,https://reqres.in/api/unknown/23,438,0,0
+1687752076165,444,HTTP Request CREATE,201,Created,Thread Group 1-1,text,true,,750,229,2,2,https://reqres.in/api/users,444,0,0
+1687752076276,421,HTTP Request CREATE,201,Created,Thread Group 1-2,text,true,,748,229,2,2,https://reqres.in/api/users,420,0,0
+1687752076610,464,HTTP Request UPDATE,200,OK,Thread Group 1-1,text,true,,729,237,2,2,https://reqres.in/api/users/2,464,0,0
+1687752076697,463,HTTP Request UPDATE,200,OK,Thread Group 1-2,text,true,,741,237,2,2,https://reqres.in/api/users/2,463,0,0
+1687752077075,423,HTTP Request UPDATE PATCH,200,OK,Thread Group 1-1,text,true,,729,239,2,2,https://reqres.in/api/users/2,423,0,0
+1687752077160,405,HTTP Request UPDATE PATCH,200,OK,Thread Group 1-2,text,true,,739,239,2,2,https://reqres.in/api/users/2,405,0,0
+1687752077498,414,HTTP Request DELETE,204,No Content,Thread Group 1-1,,true,,612,208,2,2,https://reqres.in/api/users/2,0,0,0
+1687752077566,419,HTTP Request DELETE,204,No Content,Thread Group 1-2,,true,,620,208,2,2,https://reqres.in/api/users/2,0,0,0
+1687752077912,447,HTTP Request REGISTER - SUCCESSFUL,200,OK,Thread Group 1-1,text,true,,695,250,2,2,https://reqres.in/api/register,447,0,0
+1687752077985,416,HTTP Request REGISTER - SUCCESSFUL,200,OK,Thread Group 1-2,text,true,,691,250,2,2,https://reqres.in/api/register,416,0,0
+1687752078359,391,HTTP Request REGISTER - UNSUCCESSFUL,400,Bad Request,Thread Group 1-1,text,false,,688,227,2,2,https://reqres.in/api/register,391,0,0
+1687752078402,413,HTTP Request REGISTER - UNSUCCESSFUL,400,Bad Request,Thread Group 1-2,text,false,,700,227,2,2,https://reqres.in/api/register,413,0,0
+1687752078750,411,HTTP Request LOGIN - SUCCESSFUL,200,OK,Thread Group 1-1,text,true,,684,251,2,2,https://reqres.in/api/login,411,0,0
+1687752078816,435,HTTP Request LOGIN - SUCCESSFUL,200,OK,Thread Group 1-2,text,true,,682,251,2,2,https://reqres.in/api/login,435,0,0
+1687752079161,411,HTTP Request LOGIN - UNSUCCESSFUL,400,Bad Request,Thread Group 1-1,text,false,,690,225,2,2,https://reqres.in/api/login,411,0,0
+1687752079251,423,HTTP Request LOGIN - UNSUCCESSFUL,400,Bad Request,Thread Group 1-2,text,false,,692,225,2,2,https://reqres.in/api/login,423,0,0
+1687752079573,3471,HTTP Request DELAYED RESPONSE,200,OK,Thread Group 1-1,text,true,,1657,128,2,2,https://reqres.in/api/users?delay=3,3471,0,0
+1687752083045,28,HTTP Request LIST USERS,200,OK,Thread Group 1-1,text,true,,1748,127,2,2,https://reqres.in/api/users?page=2,27,0,0
+1687752079674,3421,HTTP Request DELAYED RESPONSE,200,OK,Thread Group 1-2,text,true,,1661,128,2,2,https://reqres.in/api/users?delay=3,3421,0,0
+1687752083074,27,HTTP Request SINGLE USER,200,OK,Thread Group 1-1,text,true,,993,122,2,2,https://reqres.in/api/users/2,27,0,0
+1687752083095,24,HTTP Request LIST USERS,200,OK,Thread Group 1-2,text,true,,1746,127,2,2,https://reqres.in/api/users?page=2,24,0,0
+1687752083101,25,HTTP Request SINGLE USER NOT FOUND,404,Not Found,Thread Group 1-1,text,false,,692,123,2,2,https://reqres.in/api/users/23,25,0,0
+1687752083120,21,HTTP Request SINGLE USER,200,OK,Thread Group 1-2,text,true,,991,122,2,2,https://reqres.in/api/users/2,21,0,0
+1687752083126,27,HTTP Request LIST <RESOURCE>,200,OK,Thread Group 1-1,text,true,,1421,122,2,2,https://reqres.in/api/unknown,26,0,0
+1687752083141,23,HTTP Request SINGLE USER NOT FOUND,404,Not Found,Thread Group 1-2,text,false,,704,123,2,2,https://reqres.in/api/users/23,23,0,0
+1687752083153,30,HTTP Request SINGLE <RESOURCE>,200,OK,Thread Group 1-1,text,true,,949,124,2,2,https://reqres.in/api/unknown/2,30,0,0
+1687752083164,24,HTTP Request LIST <RESOURCE>,200,OK,Thread Group 1-2,text,true,,1421,122,2,2,https://reqres.in/api/unknown,24,0,0
+1687752083183,25,HTTP Request SINGLE <RESOURCE> NOT FOUND,404,Not Found,Thread Group 1-1,text,false,,690,125,2,2,https://reqres.in/api/unknown/23,25,0,0
+1687752083188,38,HTTP Request SINGLE <RESOURCE>,200,OK,Thread Group 1-2,text,true,,945,124,2,2,https://reqres.in/api/unknown/2,38,0,0
+1687752083226,23,HTTP Request SINGLE <RESOURCE> NOT FOUND,404,Not Found,Thread Group 1-2,text,false,,698,125,2,2,https://reqres.in/api/unknown/23,23,0,0
+1687752083208,448,HTTP Request CREATE,201,Created,Thread Group 1-1,text,true,,754,229,2,2,https://reqres.in/api/users,448,0,0
+1687752083249,470,HTTP Request CREATE,201,Created,Thread Group 1-2,text,true,,750,229,2,2,https://reqres.in/api/users,470,0,0
+1687752083656,450,HTTP Request UPDATE,200,OK,Thread Group 1-1,text,true,,733,237,2,2,https://reqres.in/api/users/2,449,0,0
+1687752083719,430,HTTP Request UPDATE,200,OK,Thread Group 1-2,text,true,,737,237,2,2,https://reqres.in/api/users/2,430,0,0
+1687752084149,410,HTTP Request UPDATE PATCH,200,OK,Thread Group 1-2,text,true,,733,239,2,2,https://reqres.in/api/users/2,410,0,0
+1687752084106,457,HTTP Request UPDATE PATCH,200,OK,Thread Group 1-1,text,true,,739,239,2,2,https://reqres.in/api/users/2,457,0,0
+1687752084559,418,HTTP Request DELETE,204,No Content,Thread Group 1-2,,true,,610,208,2,2,https://reqres.in/api/users/2,0,0,0
+1687752084564,433,HTTP Request DELETE,204,No Content,Thread Group 1-1,,true,,612,208,2,2,https://reqres.in/api/users/2,0,0,0
+1687752084977,437,HTTP Request REGISTER - SUCCESSFUL,200,OK,Thread Group 1-2,text,true,,701,250,2,2,https://reqres.in/api/register,437,0,0
+1687752084997,444,HTTP Request REGISTER - SUCCESSFUL,200,OK,Thread Group 1-1,text,true,,693,250,2,2,https://reqres.in/api/register,444,0,0
+1687752085415,426,HTTP Request REGISTER - UNSUCCESSFUL,400,Bad Request,Thread Group 1-2,text,false,,698,227,2,2,https://reqres.in/api/register,426,0,0
+1687752085442,433,HTTP Request REGISTER - UNSUCCESSFUL,400,Bad Request,Thread Group 1-1,text,false,,694,227,2,2,https://reqres.in/api/register,433,0,0
+1687752085842,395,HTTP Request LOGIN - SUCCESSFUL,200,OK,Thread Group 1-2,text,true,,694,251,2,2,https://reqres.in/api/login,395,0,0
+1687752085876,464,HTTP Request LOGIN - SUCCESSFUL,200,OK,Thread Group 1-1,text,true,,682,251,2,2,https://reqres.in/api/login,464,0,0
+1687752086238,454,HTTP Request LOGIN - UNSUCCESSFUL,400,Bad Request,Thread Group 1-2,text,false,,700,225,2,2,https://reqres.in/api/login,454,0,0
+1687752086340,418,HTTP Request LOGIN - UNSUCCESSFUL,400,Bad Request,Thread Group 1-1,text,false,,696,225,2,2,https://reqres.in/api/login,418,0,0
+1687752086692,3436,HTTP Request DELAYED RESPONSE,200,OK,Thread Group 1-2,text,true,,1655,128,2,2,https://reqres.in/api/users?delay=3,3436,0,0
+1687752090130,27,HTTP Request LIST USERS,200,OK,Thread Group 1-2,text,true,,1745,127,2,2,https://reqres.in/api/users?page=2,27,0,0
+1687752090158,21,HTTP Request SINGLE USER,200,OK,Thread Group 1-2,text,true,,998,122,2,2,https://reqres.in/api/users/2,21,0,0
+1687752086759,3430,HTTP Request DELAYED RESPONSE,200,OK,Thread Group 1-1,text,true,,1663,128,2,2,https://reqres.in/api/users?delay=3,3430,0,0
+1687752090179,29,HTTP Request SINGLE USER NOT FOUND,404,Not Found,Thread Group 1-2,text,false,,703,123,2,2,https://reqres.in/api/users/23,29,0,0
+1687752090191,28,HTTP Request LIST USERS,200,OK,Thread Group 1-1,text,true,,1745,127,2,2,https://reqres.in/api/users?page=2,28,0,0
+1687752090208,24,HTTP Request LIST <RESOURCE>,200,OK,Thread Group 1-2,text,true,,1423,122,2,2,https://reqres.in/api/unknown,24,0,0
+1687752090220,22,HTTP Request SINGLE USER,200,OK,Thread Group 1-1,text,true,,992,122,2,2,https://reqres.in/api/users/2,22,0,0
+1687752090232,35,HTTP Request SINGLE <RESOURCE>,200,OK,Thread Group 1-2,text,true,,943,124,2,2,https://reqres.in/api/unknown/2,35,0,0
+1687752090242,25,HTTP Request SINGLE USER NOT FOUND,404,Not Found,Thread Group 1-1,text,false,,693,123,2,2,https://reqres.in/api/users/23,25,0,0
+1687752090267,22,HTTP Request LIST <RESOURCE>,200,OK,Thread Group 1-1,text,true,,1419,122,2,2,https://reqres.in/api/unknown,22,0,0
+1687752090267,22,HTTP Request SINGLE <RESOURCE> NOT FOUND,404,Not Found,Thread Group 1-2,text,false,,695,125,2,2,https://reqres.in/api/unknown/23,22,0,0
+1687752090289,23,HTTP Request SINGLE <RESOURCE>,200,OK,Thread Group 1-1,text,true,,947,124,2,2,https://reqres.in/api/unknown/2,23,0,0
+1687752090312,23,HTTP Request SINGLE <RESOURCE> NOT FOUND,404,Not Found,Thread Group 1-1,text,false,,695,125,2,2,https://reqres.in/api/unknown/23,23,0,0
+1687752090289,436,HTTP Request CREATE,201,Created,Thread Group 1-2,text,true,,752,229,2,2,https://reqres.in/api/users,436,0,0
+1687752090335,422,HTTP Request CREATE,201,Created,Thread Group 1-1,text,true,,750,229,2,2,https://reqres.in/api/users,422,0,0
+1687752090726,399,HTTP Request UPDATE,200,OK,Thread Group 1-2,text,true,,739,237,2,2,https://reqres.in/api/users/2,399,0,0
+1687752090758,421,HTTP Request UPDATE,200,OK,Thread Group 1-1,text,true,,733,237,2,2,https://reqres.in/api/users/2,421,0,0
+1687752091125,463,HTTP Request UPDATE PATCH,200,OK,Thread Group 1-2,text,true,,741,239,2,2,https://reqres.in/api/users/2,463,0,0
+1687752091180,411,HTTP Request UPDATE PATCH,200,OK,Thread Group 1-1,text,true,,733,239,2,2,https://reqres.in/api/users/2,411,0,0
+1687752091591,464,HTTP Request DELETE,204,No Content,Thread Group 1-1,,true,,614,208,2,2,https://reqres.in/api/users/2,0,0,0
+1687752092055,467,HTTP Request REGISTER - SUCCESSFUL,200,OK,Thread Group 1-1,text,true,,689,250,2,2,https://reqres.in/api/register,467,0,0
+1687752092522,430,HTTP Request REGISTER - UNSUCCESSFUL,400,Bad Request,Thread Group 1-1,text,false,,698,227,2,2,https://reqres.in/api/register,430,0,0
+1687752092953,433,HTTP Request LOGIN - SUCCESSFUL,200,OK,Thread Group 1-1,text,true,,682,251,2,2,https://reqres.in/api/login,433,0,0
+1687752093387,446,HTTP Request LOGIN - UNSUCCESSFUL,400,Bad Request,Thread Group 1-1,text,false,,688,225,2,2,https://reqres.in/api/login,446,0,0
+1687752093834,3447,HTTP Request DELAYED RESPONSE,200,OK,Thread Group 1-1,text,true,,1653,128,2,2,https://reqres.in/api/users?delay=3,3447,0,0
+1687752097280,25,HTTP Request LIST USERS,200,OK,Thread Group 1-1,text,true,,1751,127,2,2,https://reqres.in/api/users?page=2,25,0,0
+1687752097305,28,HTTP Request SINGLE USER,200,OK,Thread Group 1-1,text,true,,994,122,2,2,https://reqres.in/api/users/2,28,0,0
+1687752097334,23,HTTP Request SINGLE USER NOT FOUND,404,Not Found,Thread Group 1-1,text,false,,695,123,2,2,https://reqres.in/api/users/23,23,0,0
+1687752097358,27,HTTP Request LIST <RESOURCE>,200,OK,Thread Group 1-1,text,true,,1423,122,2,2,https://reqres.in/api/unknown,27,0,0
+1687752097386,23,HTTP Request SINGLE <RESOURCE>,200,OK,Thread Group 1-1,text,true,,951,124,2,2,https://reqres.in/api/unknown/2,23,0,0
+1687752097409,21,HTTP Request SINGLE <RESOURCE> NOT FOUND,404,Not Found,Thread Group 1-1,text,false,,695,125,2,2,https://reqres.in/api/unknown/23,21,0,0
+1687752097431,417,HTTP Request CREATE,201,Created,Thread Group 1-1,text,true,,750,229,2,2,https://reqres.in/api/users,417,0,0
+1687752097848,441,HTTP Request UPDATE,200,OK,Thread Group 1-1,text,true,,737,237,2,2,https://reqres.in/api/users/2,441,0,0
+1687752098290,401,HTTP Request UPDATE PATCH,200,OK,Thread Group 1-1,text,true,,737,239,2,2,https://reqres.in/api/users/2,401,0,0
+1687752098691,407,HTTP Request DELETE,204,No Content,Thread Group 1-1,,true,,616,208,2,2,https://reqres.in/api/users/2,0,0,0
+1687752099099,435,HTTP Request REGISTER - SUCCESSFUL,200,OK,Thread Group 1-1,text,true,,689,250,2,2,https://reqres.in/api/register,435,0,0
+1687752099535,456,HTTP Request REGISTER - UNSUCCESSFUL,400,Bad Request,Thread Group 1-1,text,false,,694,227,2,2,https://reqres.in/api/register,456,0,0
+1687752099992,430,HTTP Request LOGIN - SUCCESSFUL,200,OK,Thread Group 1-1,text,true,,692,251,2,2,https://reqres.in/api/login,430,0,0
+1687752100422,437,HTTP Request LOGIN - UNSUCCESSFUL,400,Bad Request,Thread Group 1-1,text,false,,696,225,2,2,https://reqres.in/api/login,437,0,0
+1687752100859,3467,HTTP Request DELAYED RESPONSE,200,OK,Thread Group 1-1,text,true,,1653,128,2,2,https://reqres.in/api/users?delay=3,3467,0,0
+1687752104326,49,HTTP Request LIST USERS,200,OK,Thread Group 1-1,text,true,,1741,127,2,2,https://reqres.in/api/users?page=2,49,0,0
+1687752104376,28,HTTP Request SINGLE USER,200,OK,Thread Group 1-1,text,true,,992,122,2,2,https://reqres.in/api/users/2,28,0,0
+1687752104404,23,HTTP Request SINGLE USER NOT FOUND,404,Not Found,Thread Group 1-1,text,false,,701,123,2,2,https://reqres.in/api/users/23,23,0,0
+1687752104427,31,HTTP Request LIST <RESOURCE>,200,OK,Thread Group 1-1,text,true,,1425,122,2,2,https://reqres.in/api/unknown,31,0,0
+1687752104459,28,HTTP Request SINGLE <RESOURCE>,200,OK,Thread Group 1-1,text,true,,943,124,2,2,https://reqres.in/api/unknown/2,27,0,0
+1687752104487,22,HTTP Request SINGLE <RESOURCE> NOT FOUND,404,Not Found,Thread Group 1-1,text,false,,695,125,2,2,https://reqres.in/api/unknown/23,22,0,0
+1687752104510,415,HTTP Request CREATE,201,Created,Thread Group 1-1,text,true,,741,229,2,2,https://reqres.in/api/users,415,0,0
+1687752104926,431,HTTP Request UPDATE,200,OK,Thread Group 1-1,text,true,,731,237,2,2,https://reqres.in/api/users/2,431,0,0
+1687752105357,431,HTTP Request UPDATE PATCH,200,OK,Thread Group 1-1,text,true,,731,239,2,2,https://reqres.in/api/users/2,431,0,0
+1687752105788,421,HTTP Request DELETE,204,No Content,Thread Group 1-1,,true,,618,208,2,2,https://reqres.in/api/users/2,0,0,0
+1687752106209,447,HTTP Request REGISTER - SUCCESSFUL,200,OK,Thread Group 1-1,text,true,,691,250,2,2,https://reqres.in/api/register,447,0,0
+1687752106656,436,HTTP Request REGISTER - UNSUCCESSFUL,400,Bad Request,Thread Group 1-1,text,false,,694,227,2,2,https://reqres.in/api/register,436,0,0
+1687752091588,15713,HTTP Request DELETE,204,No Content,Thread Group 1-2,,true,,614,208,2,2,https://reqres.in/api/users/2,0,0,0
+1687752107093,436,HTTP Request LOGIN - SUCCESSFUL,200,OK,Thread Group 1-1,text,true,,684,251,2,2,https://reqres.in/api/login,436,0,0
+1687752107301,398,HTTP Request REGISTER - SUCCESSFUL,200,OK,Thread Group 1-2,text,true,,699,250,2,2,https://reqres.in/api/register,398,0,0
+1687752107529,390,HTTP Request LOGIN - UNSUCCESSFUL,400,Bad Request,Thread Group 1-1,text,false,,694,225,2,2,https://reqres.in/api/login,390,0,0
+1687752107700,413,HTTP Request REGISTER - UNSUCCESSFUL,400,Bad Request,Thread Group 1-2,text,false,,694,227,2,2,https://reqres.in/api/register,413,0,0
+1687752108114,390,HTTP Request LOGIN - SUCCESSFUL,200,OK,Thread Group 1-2,text,true,,686,251,2,2,https://reqres.in/api/login,390,0,0
+1687752108505,419,HTTP Request LOGIN - UNSUCCESSFUL,400,Bad Request,Thread Group 1-2,text,false,,694,225,2,2,https://reqres.in/api/login,419,0,0
+1687752107920,3454,HTTP Request DELAYED RESPONSE,200,OK,Thread Group 1-1,text,true,,1651,128,2,2,https://reqres.in/api/users?delay=3,3454,0,0
+1687752108925,3430,HTTP Request DELAYED RESPONSE,200,OK,Thread Group 1-2,text,true,,1655,128,1,1,https://reqres.in/api/users?delay=3,3430,0,0
+1687752112355,24,HTTP Request LIST USERS,200,OK,Thread Group 1-2,text,true,,1743,127,1,1,https://reqres.in/api/users?page=2,24,0,0
+1687752112380,25,HTTP Request SINGLE USER,200,OK,Thread Group 1-2,text,true,,994,122,1,1,https://reqres.in/api/users/2,25,0,0
+1687752112405,19,HTTP Request SINGLE USER NOT FOUND,404,Not Found,Thread Group 1-2,text,false,,697,123,1,1,https://reqres.in/api/users/23,19,0,0
+1687752112425,25,HTTP Request LIST <RESOURCE>,200,OK,Thread Group 1-2,text,true,,1423,122,1,1,https://reqres.in/api/unknown,25,0,0
+1687752112450,27,HTTP Request SINGLE <RESOURCE>,200,OK,Thread Group 1-2,text,true,,953,124,1,1,https://reqres.in/api/unknown/2,27,0,0
+1687752112477,24,HTTP Request SINGLE <RESOURCE> NOT FOUND,404,Not Found,Thread Group 1-2,text,false,,701,125,1,1,https://reqres.in/api/unknown/23,24,0,0
+1687752112501,447,HTTP Request CREATE,201,Created,Thread Group 1-2,text,true,,748,229,1,1,https://reqres.in/api/users,447,0,0
+1687752112949,462,HTTP Request UPDATE,200,OK,Thread Group 1-2,text,true,,737,237,1,1,https://reqres.in/api/users/2,462,0,0
+1687752113412,438,HTTP Request UPDATE PATCH,200,OK,Thread Group 1-2,text,true,,739,239,1,1,https://reqres.in/api/users/2,438,0,0
+1687752113851,464,HTTP Request DELETE,204,No Content,Thread Group 1-2,,true,,610,208,1,1,https://reqres.in/api/users/2,0,0,0
+1687752114316,423,HTTP Request REGISTER - SUCCESSFUL,200,OK,Thread Group 1-2,text,true,,691,250,1,1,https://reqres.in/api/register,423,0,0
+1687752114739,433,HTTP Request REGISTER - UNSUCCESSFUL,400,Bad Request,Thread Group 1-2,text,false,,694,227,1,1,https://reqres.in/api/register,433,0,0
+1687752115172,432,HTTP Request LOGIN - SUCCESSFUL,200,OK,Thread Group 1-2,text,true,,686,251,1,1,https://reqres.in/api/login,432,0,0
+1687752115605,449,HTTP Request LOGIN - UNSUCCESSFUL,400,Bad Request,Thread Group 1-2,text,false,,696,225,1,1,https://reqres.in/api/login,449,0,0
+1687752116055,3434,HTTP Request DELAYED RESPONSE,200,OK,Thread Group 1-2,text,true,,1653,128,1,1,https://reqres.in/api/users?delay=3,3434,0,0
+1687752119489,29,HTTP Request LIST USERS,200,OK,Thread Group 1-2,text,true,,1741,127,1,1,https://reqres.in/api/users?page=2,28,0,0
+1687752119518,26,HTTP Request SINGLE USER,200,OK,Thread Group 1-2,text,true,,998,122,1,1,https://reqres.in/api/users/2,26,0,0
+1687752119544,25,HTTP Request SINGLE USER NOT FOUND,404,Not Found,Thread Group 1-2,text,false,,701,123,1,1,https://reqres.in/api/users/23,25,0,0
+1687752119569,27,HTTP Request LIST <RESOURCE>,200,OK,Thread Group 1-2,text,true,,1421,122,1,1,https://reqres.in/api/unknown,27,0,0
+1687752119596,22,HTTP Request SINGLE <RESOURCE>,200,OK,Thread Group 1-2,text,true,,949,124,1,1,https://reqres.in/api/unknown/2,22,0,0
+1687752119619,22,HTTP Request SINGLE <RESOURCE> NOT FOUND,404,Not Found,Thread Group 1-2,text,false,,707,125,1,1,https://reqres.in/api/unknown/23,22,0,0
+1687752119641,425,HTTP Request CREATE,201,Created,Thread Group 1-2,text,true,,748,229,1,1,https://reqres.in/api/users,425,0,0
+1687752120066,417,HTTP Request UPDATE,200,OK,Thread Group 1-2,text,true,,745,237,1,1,https://reqres.in/api/users/2,417,0,0
+1687752120483,390,HTTP Request UPDATE PATCH,200,OK,Thread Group 1-2,text,true,,741,239,1,1,https://reqres.in/api/users/2,390,0,0
+1687752120874,415,HTTP Request DELETE,204,No Content,Thread Group 1-2,,true,,614,208,1,1,https://reqres.in/api/users/2,0,0,0
+1687752121290,453,HTTP Request REGISTER - SUCCESSFUL,200,OK,Thread Group 1-2,text,true,,685,250,1,1,https://reqres.in/api/register,453,0,0
+1687752121743,429,HTTP Request REGISTER - UNSUCCESSFUL,400,Bad Request,Thread Group 1-2,text,false,,690,227,1,1,https://reqres.in/api/register,428,0,0
+1687752122172,441,HTTP Request LOGIN - SUCCESSFUL,200,OK,Thread Group 1-2,text,true,,690,251,1,1,https://reqres.in/api/login,441,0,0
+1687752122613,453,HTTP Request LOGIN - UNSUCCESSFUL,400,Bad Request,Thread Group 1-2,text,false,,694,225,1,1,https://reqres.in/api/login,453,0,0
+1687752123067,3450,HTTP Request DELAYED RESPONSE,200,OK,Thread Group 1-2,text,true,,1655,128,1,1,https://reqres.in/api/users?delay=3,3450,0,0
